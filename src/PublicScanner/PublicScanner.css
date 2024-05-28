@@ -1,0 +1,79 @@
+/* src/custom.css */
+.search-section {
+  padding: 20px;
+}
+
+.search-heading {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.search-subheading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-paragraph {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.search-bar-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-custom {
+  flex: 1 1 calc(33.333% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card-header-custom {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body-custom {
+  padding: 20px;
+}
+
+.card-body-custom ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-body-custom li {
+  margin-bottom: 10px;
+}
